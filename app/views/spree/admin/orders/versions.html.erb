@@ -2,7 +2,7 @@
   <li><%= link_to I18n.t('spree.back'), spree.edit_admin_order_path(@order), :icon => 'icon-arrow-left' %></li>
 <% end %>
 
-<%= render partial: 'spree/admin/shared/order_tabs', locals: { current: 'Audit Trail'} %>
+<%= render partial: 'spree/admin/shared/order_tabs', locals: { current: 'Order History'} %>
 
 <%= render partial: 'order_versions' %>
 
